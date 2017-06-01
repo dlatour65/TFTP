@@ -1,0 +1,1 @@
+java -cp TFTP-1.0.0-SNAPSHOT.jar com.latour.tftp.Server

@@ -1,0 +1,1 @@
+java -cp TFTP-1.0.0-SNAPSHOT.jar com.latour.tftp.Client 192.168.56.1 PUT C:\\TFTPClient filename.txt
