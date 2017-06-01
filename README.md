@@ -1,14 +1,14 @@
-#TFTP Server and Client
+# TFTP Server and Client
 
 This is an incomplete TFTP server and client.  I have chosen to implement the sending and retrieving of files as this seems to be the minimal viable product; however error handling is minimal.  Error handling and retransmission of blocks are not implemented.
 
-#Server
+## Server
 
 I have checked in a built jar and some batch files to help with running of the client and server.  The server reads a properties file "tftpConfig.properties" in which the listening port and the write directory can be set.
 
 To run, launch the server.bat  file in the target directory.
 
-#Client
+## Client
 
 The client is a command line program that takes four arguments.
 1. host - ipaddress of the server
